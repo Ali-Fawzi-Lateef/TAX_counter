@@ -3,6 +3,7 @@
 using namespace std;
 
 void come() {
+	system("color 4");
 	double income, tax = 0;
 	cout << "enter you income : ";
 	do {
