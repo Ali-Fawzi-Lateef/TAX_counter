@@ -3,11 +3,11 @@
 using namespace std;
 
 void come() {
-	system("color 4");
+	system("color 4");//set screen colour to RED
 	double income, tax = 0;
 	cout << "enter you income : ";
-	do {
-		cin >> income;
+	do {//loop that keep asking for input till the user break it
+		cin >> income;//get input
 		if (income >= 35000) {
 			tax = income * 0.2;
 			income -= tax;
