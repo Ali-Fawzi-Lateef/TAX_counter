@@ -1,6 +1,7 @@
 #include<iostream>
 
 using namespace std;
+//this program dose a simple calculating for taxes.
 
 void come() {
 	system("color 4");//set screen colour to RED
