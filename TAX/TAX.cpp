@@ -7,7 +7,7 @@ void tax() {
 	system("color 4");//set screen colour to RED.
 	double income, tax = 0;
 	cout << "enter you income : ";
-	do {//loop that keep asking for input till the user break it
+	do {//loop that keep asking for input till the user break it.
 		cin >> income;//get input
 		if (income >= 35000) {
 			tax = income * 0.2;//caculating the income with taxes
