@@ -32,5 +32,5 @@ void tax() {
 	cout << "no income\a";
 }
 int main() {
-	tax();//invoke the function
+	tax();//invoke the function.
 }
