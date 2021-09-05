@@ -28,7 +28,7 @@ void tax() {
 			cout << income << " income with no taxes\a" << endl;
 
 
-	} while (income != 0);//loop breaks when input 0
+	} while (income != 0);//loop breaks when input 0.
 	cout << "no income\a";
 }
 int main() {
